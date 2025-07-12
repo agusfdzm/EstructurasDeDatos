@@ -44,9 +44,13 @@ class LinkedList:
     def recibirTamaño(self) -> int:
         return self._size
     
-ejemplo = LinkedList()
-ejemplo.add(0, 1)
-print(ejemplo.recibirTamaño())
+lista = LinkedList()
+lista.add(0, 1)
+lista.add(1, 10)
+lista.add(2, 20)
+lista.add(3, 30)
+
+print(lista.recibirTamaño())
 
 
 
